@@ -32346,8 +32346,8 @@
 	    browserHistory = _require.browserHistory;
 
 	var App = __webpack_require__(619);
-	var Movies = __webpack_require__(621);
-	var Movie = __webpack_require__(624);
+	var Movies = __webpack_require__(624);
+	var Movie = __webpack_require__(628);
 
 	module.exports = React.createElement(
 		Router,
@@ -38766,7 +38766,7 @@
 	var _require = __webpack_require__(504),
 	    connect = _require.connect;
 
-	var styles = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./app.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var styles = __webpack_require__(620);
 
 	var App = function (_React$Component) {
 	  _inherits(App, _React$Component);
@@ -38797,8 +38797,17 @@
 	module.exports = connect()(App);
 
 /***/ },
-/* 620 */,
-/* 621 */
+/* 620 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"app":"app__d47a_"};
+
+/***/ },
+/* 621 */,
+/* 622 */,
+/* 623 */,
+/* 624 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -38822,8 +38831,8 @@
 	var _require3 = __webpack_require__(533),
 	    fetchMoviesActionCreator = _require3.fetchMoviesActionCreator;
 
-	var movies = __webpack_require__(622);
-	var styles = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./movies.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var movies = __webpack_require__(625);
+	var styles = __webpack_require__(626);
 
 	var Movies = function (_React$Component) {
 		_inherits(Movies, _React$Component);
@@ -38884,7 +38893,7 @@
 	})(Movies);
 
 /***/ },
-/* 622 */
+/* 625 */
 /***/ function(module, exports) {
 
 	module.exports = [
@@ -39115,8 +39124,15 @@
 	];
 
 /***/ },
-/* 623 */,
-/* 624 */
+/* 626 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"movies":"movies__aAZfj","list":"list__M5T1N","listHidden":"listHidden__1iV9-","movie":"movie__1J1je"};
+
+/***/ },
+/* 627 */,
+/* 628 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -39140,7 +39156,7 @@
 	var _require3 = __webpack_require__(533),
 	    fetchMovieActionCreator = _require3.fetchMovieActionCreator;
 
-	var styles = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./movie.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var styles = __webpack_require__(629);
 
 	var Movie = function (_React$Component) {
 		_inherits(Movie, _React$Component);
@@ -39233,6 +39249,13 @@
 	}, {
 		fetchMovie: fetchMovieActionCreator
 	})(Movie);
+
+/***/ },
+/* 629 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"movie":"movie__VOWcO","cover":"cover__Nly2p","description":"description__3yeoq","title":"title__2aBIx","year":"year__35Bhg","starring":"starring__3qkLG","actor":"actor__2T0uT","closeButton":"closeButton__3-CaH"};
 
 /***/ }
 /******/ ]);
